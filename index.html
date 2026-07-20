@@ -3,13 +3,12 @@
 
 <head>
     <title>My Portfolio</title>
-    <link rel="stylesheet"
-href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
+<header>
     <h2>VINAY</h2>
 
     <nav>
@@ -20,21 +19,31 @@ href="style.css">
     </nav>
 </header>
 
+<!-- Hero Section -->
 <div class="hero">
-    <h3>Hello, I'm</h3>
-    <h1>Vinay Pardeshi</h1>
-    <p>BSc IT Student | Learning Web Development</p>
 
-    <img src="profile.jpeg" alt="Vinay">
+    <div class="hero-text">
+        <h3>Hello, I'm</h3>
 
-    <br>
+        <h1>Vinay Pardeshi</h1>
 
-    <button>Contact Me</button>
+        <p>BSc IT Student | Learning Web Development</p>
+
+        <br>
+
+        <button>Contact Me</button>
+    </div>
+
+    <div class="hero-image">
+        <img src="profile.jpeg" alt="Vinay">
+    </div>
+
 </div>
 
 <hr>
 
 <section id="about">
+
     <h2>About Me</h2>
 
     <p>
@@ -46,53 +55,71 @@ href="style.css">
     <p>
         I am currently improving my front-end development skills while learning Git, GitHub, and modern web development practices through my internship. My goal is to become a skilled Full-Stack Web Developer by continuously learning, building projects, and gaining real-world experience.
     </p>
-</section>
 
-<section id="skills">
-    <h2>My Skills</h2>
-
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Git & GitHub</li>
-    </ul>
 </section>
 
 <hr>
 
-<section id="education">
+<section id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skills">
+
+        <div>HTML</div>
+
+        <div>CSS</div>
+
+        <div>JavaScript</div>
+
+        <div>Git & GitHub</div>
+
+    </div>
+
+</section>
+
+<hr>
+
+<section id="education" class="education">
+
     <h2>Education</h2>
 
     <p><strong>Course:</strong> BSc Information Technology</p>
+
     <p><strong>Year:</strong> Second Year</p>
+
 </section>
 
 <hr>
 
 <section id="contact">
+
     <h2>Contact Me</h2>
 
     <form>
-        <label>Name:</label><br>
-        <input type="text"><br><br>
 
-        <label>Email:</label><br>
-        <input type="email"><br><br>
+        <label>Name:</label>
+        <input type="text">
 
-        <label>Message:</label><br>
-        <textarea rows="4" cols="30"></textarea><br><br>
+        <label>Email:</label>
+        <input type="email">
+
+        <label>Message:</label>
+        <textarea rows="4"></textarea>
 
         <button type="submit">Send</button>
+
     </form>
+
 </section>
 
 <hr>
 
 <footer>
+
     <p>Created by Vinay Pardeshi | BSc IT Student | Web Development Learner</p>
+
 </footer>
 
 </body>
-
 </html>
