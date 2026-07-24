@@ -130,3 +130,13 @@ window.addEventListener("scroll", function () {
     });
 
 });
+
+const viewProjectsBtn = document.getElementById("viewProjectsBtn");
+
+if (viewProjectsBtn) {
+    viewProjectsBtn.addEventListener("click", function () {
+        document.getElementById("projects").scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+}
