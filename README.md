@@ -12,4 +12,4 @@ This is my personal portfolio website created as part of the Codomax Internship.
 Codomax Internship
 
 ## Name
-Vinay Pardeshi
+Vinay Pardeshi.
